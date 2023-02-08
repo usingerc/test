@@ -1,0 +1,35 @@
+Name: Translations
+Type: FolderType
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [20,2],
+    "Body": [
+     "","en-US",
+     "Acknowledge","Acknowledge",
+     "Acknowledge All","Acknowledge All",
+     "Confirm","Confirm",
+     "Confirm All","Confirm All",
+     "Timestamp","Timestamp",
+     "Message","Message",
+     "Name","Name",
+     "Acked","Acked",
+     "Active","Active",
+     "Confirmed","Confirmed",
+     "SourceName","Source Variable",
+     "Severity","Severity",
+     "To","To",
+     "Refresh","Refresh",
+     "From","From",
+     "Save","Save",
+     "Delete","Delete",
+     "Load","Load",
+     "Apply","Apply"
+    ]
+   }

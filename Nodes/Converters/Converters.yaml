@@ -1,0 +1,54 @@
+Name: Converters
+Type: FolderType
+Children:
+- Name: colorConverter
+  Id: g=931b84c18d6cb2ed7187b5124df593db
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ff0000"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00ff00"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ff00ff"

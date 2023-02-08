@@ -1,0 +1,29 @@
+Name: Model
+Id: g=7737abfb052b894efcc0c4b3d8c236fc
+Type: FolderType
+Children:
+- Name: Ing01
+  Id: g=fdcdfca2beb31c821c9304055774cb9e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Ing02
+  Id: g=70dcda4d5398e8997da34753e9d90a05
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Ing03
+  Id: g=b107da222e6e8a4c4c40d109155bd865
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Motor1Alarm
+  Id: g=2297f683e8156560c6f9702829307ce7
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Temperature
+  Id: g=0ba7275410956934e2151b85e0c4f3c9
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

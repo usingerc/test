@@ -1,0 +1,92 @@
+Name: Recipes
+Type: FolderType
+Children:
+- Name: RecipeSchema1
+  Id: g=1e27af7c9bbf09ec3c6dcafcad2bcb8a
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Ing01
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ing02
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ing03
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Class: Reference
+    Target: ns=23;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"7737abfb052b894efcc0c4b3d8c236fc","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"4ac615d21e078551ebcf92ef29ff9145","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":19}
+  - Name: EditModel
+    Id: g=96b883c1dec9a80b71bec69d6c304ee3
+    Type: BaseObjectType
+    Children:
+    - Name: Ing01
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ing02
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ing03
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
